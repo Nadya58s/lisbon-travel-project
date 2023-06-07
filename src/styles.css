@@ -26,12 +26,17 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
-.grid-3-columns {
-  grid-template-columns: 1fr 1fr 1fr;
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
 }
 
 .card {
@@ -39,13 +44,18 @@ body {
   margin: 30px 0;
 }
 
+.card-header.grids {
+  grid-gap: 0;
+}
+
 .card-body {
-  padding: 32px;
+  padding: 30px;
 }
 
 .card-footer {
   padding: 0 30px 30px;
 }
+
 .btn {
   display: block;
   color: white;
@@ -59,6 +69,8 @@ body {
   background-color: #462cb3;
   text-decoration: none;
 }
+
+
 
 section {
   max-width: 100%;
@@ -229,7 +241,11 @@ footer a {
     padding: 30px;
   }
 
-  .img-responsive {
-    max-width: 100%;
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
