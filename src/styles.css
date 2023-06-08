@@ -15,7 +15,7 @@ body {
 }
 .grid {
   display: grid;
-  grid-gap: 64px;
+  grid-gap: 0;
 }
 
 .img-responsive {
@@ -29,6 +29,7 @@ body {
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 35px;
 }
 
 .grid-3-columns-with-first-narrow {
@@ -72,6 +73,18 @@ body {
   padding: 16px;
   background-color: #462cb3;
   text-decoration: none;
+}
+
+.add-seagull {
+  padding-top: 50px;
+}
+
+.seagull-button {
+  padding-bottom: 15px;
+}
+
+.add-janis {
+  padding-top: 25px;
 }
 
 section {
