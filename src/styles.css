@@ -28,6 +28,10 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-2-columns > iframe {
+  width: 100%;
+}
+
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -56,7 +60,6 @@ body {
 
 .card-header.grid {
   grid-gap: 0;
-  
 }
 
 .card-body {
