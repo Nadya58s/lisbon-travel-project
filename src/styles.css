@@ -64,6 +64,7 @@ body {
 
 .card-body {
   flex: 1;
+  padding: 25px;
 }
 
 .card-footer {
